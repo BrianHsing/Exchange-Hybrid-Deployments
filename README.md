@@ -18,6 +18,7 @@
   - 確認要同步的組織單位。<br>
   - 確認每個信箱大小、資料庫數量、資料庫大小。<br>
   - 確認對外 ISP 上傳頻寬。<br>
+  - 確認客戶用戶端的 Outlook 版本。<br>
 - 客戶環境準備<br>
   - 虛擬機器 for Azure AD Connect tool<br>
     - 虛擬機器規格 2 vcpu、4 GB RAM、127 GB Disk。<br>
@@ -25,7 +26,7 @@
   - 虛擬機器 for Exchange Server (option)<br>
     - 如果客戶環境是 Exchange Server 2007 / 2010 / 2013 的版本，強烈建議多建立一台 Exchange Server 用於混合式佈署。<br>
     - 虛擬機器規格 2 vcpu、8 GB RAM、127 GB Disk。<br>
-    - 虛擬機器網路建議不通過防火牆，直接與 Microsoft 365 進行連線，主要用到的 Port 為 25、80、443。<br>
+    - 虛擬機器網路建議不通過防火牆，直接與 Exchange Online 進行連線，主要用到的 Port 為 25、80、443。<br>
   - 受信任的第三方憑證認證機構所頒發的憑證，SAN SSL 或 Wildcard SSL。<br>
 ## 佈署流程
 
