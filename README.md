@@ -2,6 +2,7 @@
 
 ## Exchange Server 混合式佈署模擬環境說明
 - On-Premises 模擬環境架構圖<br>
+  ![Github](Images/On-Premise-Exchange.png)<br>
 - Exchange Server 2016 以上混合式佈署環境架構圖 (本篇採用此架構)<br>
 - Exchange Server 2007 / 2010 / 2013 混合式佈署環境架構圖<br>
 ## 前置作業
