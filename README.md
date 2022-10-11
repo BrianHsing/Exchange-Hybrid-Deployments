@@ -3,9 +3,15 @@
 ## Exchange Server 混合式佈署模擬環境說明
 - On-Premises 模擬環境架構圖<br>
   ![Github](Images/On-Premise-Exchange.png)<br>
+  - DC01：Windows Server 2016
+  - AD 樹系等級：Windows Server 2016
+  - EX2016：Windows Server 2016
+  - Exchange 版本：Exchange Server 2016 CU23
 - Exchange Server 2016 以上混合式佈署環境架構圖 (本篇採用此架構)<br>
+  Exchange Server 2016 建議在同一台上直接啟用 Exchange Hybrid 功能，可以直接透過既有的 Exchange External 與 Exchange Online 做混合佈署。此範例所使用的 M365 Tenant 的自訂網域為 brianhsing.store。<br>
   ![Github](Images/On-Premise-Exchange-2.png)<br>
 - Exchange Server 2007 / 2010 / 2013 混合式佈署環境架構圖<br>
+  Exchange Server 2016 以下的版本，建議在同個 Exchange 組織內建立一台 Exchange Server 專門用於與 Exchange Online 做混合佈署得設置。此作法可以免去傳統 Exchange Server 需要對應支援版本的麻煩，而此台 Exchange Server 授權，會在進行 Exchange Hybrid 佈署時授予。此信箱僅限用於 Exchange Server 與 Exchange Online 郵件路由傳輸之用途，不能將資料庫與信箱建立在此 Exchange Server 上。<br>
   ![Github](Images/On-Premise-Exchange-3.png)<br>
 ## 前置作業
 - 客戶必須要先開通 Microsoft 365 Tenant 並且擁有全域管理員帳號<br>
@@ -21,6 +27,10 @@
   - 確認每個信箱大小、資料庫數量、資料庫大小。<br>
   - 確認對外 ISP 上傳頻寬。<br>
   - 確認客戶用戶端的 Outlook 版本。<br>
+  |  Microsoft 365 |
+  |  ----  | ----  |
+  | 項目   | 實際環境 |
+  | 元格  | 元格 |
 - 客戶環境準備<br>
   - 虛擬機器 for Azure AD Connect tool<br>
     - 虛擬機器規格 2 vcpu、4 GB RAM、127 GB Disk。<br>
@@ -30,5 +40,8 @@
     - 虛擬機器規格 2 vcpu、8 GB RAM、127 GB Disk。<br>
     - 虛擬機器網路建議不通過防火牆，直接與 Exchange Online 進行連線，主要用到的 Port 為 25、80、443。<br>
   - 受信任的第三方憑證認證機構所頒發的憑證，SAN SSL 或 Wildcard SSL。<br>
+  - 
 ## 佈署流程
 
+- 目錄同步處理
+- 
