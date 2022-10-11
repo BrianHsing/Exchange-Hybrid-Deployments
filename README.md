@@ -67,8 +67,8 @@
     - 虛擬機器規格 2 vcpu、8 GB RAM、127 GB Disk。<br>
     - 虛擬機器網路建議不通過防火牆，直接與 Exchange Online 進行連線，主要用到的 Port 為 25、80、443。<br>
   - 受信任的第三方憑證認證機構所頒發的憑證，SAN SSL 或 Wildcard SSL。<br>
-  - 
+
 ## 佈署流程
 
 - 目錄同步處理
-- 
+- Exchange Server 混合式佈署
