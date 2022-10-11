@@ -28,9 +28,36 @@
   - 確認對外 ISP 上傳頻寬。<br>
   - 確認客戶用戶端的 Outlook 版本。<br>
 
-  |  項目    |實際環境 |
-  |  :--:  | :----: |
-  | 元格      | 元格 |
+  Microsoft 365<br>
+
+  |項目|實際環境|
+  |:----:|:--------:|
+  |Global Admin|admin@brianhsing.store|
+  |Custom Domain|brianhsing.store|
+  |Client App Outlook Version|Office 365 app for enterprise|
+
+  On-Premises<br>
+
+  |項目|實際環境|
+  |:--------:|:--------:|
+  |Active Directory forest root|admin@brianhsing.store|
+  |Domain Controller Name|brianhsing.store|
+  |Domain Controller OS|Windows Server 2016|
+  |Domain Forest Functional Levels|Windows Server 2016|
+  |Exchange Server Name|EX2016|
+  |Exchange Server OS|Exchange Server 2016|
+  |Exchange Server CU|Exchange Server 2016 CU23|
+  |Internal Exchange Server FQDN|EX2016.brianhsing.store|
+  |External Exchange Server FQDN|mail.brianhsing.store|
+  |Internal Autodiscover FQDN|autodiscover.brianhsing.store|
+  |External Autodiscover FQDN|autodiscover.brianhsing.store|
+  |Certificate Typer|SAN SSL|
+  |Database Size| 250 MB |
+  |Mailbox Size limit | 2 GB|
+  |ISP Internet Speed|500 Mbps / 250 Mbps|
+  |Sync OU Select|M365|
+
+
 - 客戶環境準備<br>
   - 虛擬機器 for Azure AD Connect tool<br>
     - 虛擬機器規格 2 vcpu、4 GB RAM、127 GB Disk。<br>
