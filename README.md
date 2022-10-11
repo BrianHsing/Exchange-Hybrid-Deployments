@@ -70,5 +70,8 @@
 
 ## 佈署流程
 
-- 目錄同步處理
-- Exchange Server 混合式佈署
+- [目錄同步處理](/ADSync.md)<br>
+- [Exchange Server 混合式佈署](/ExchangeHybrid.md)<br>
+- [郵件路由測試](/MailFlow.md)<br>
+- [信箱移轉測試](/MailBoxMigrate.md)<br>
+- [更改 DNS 紀錄指向 Exchange Online](/ChangeDNS.md)<br>
