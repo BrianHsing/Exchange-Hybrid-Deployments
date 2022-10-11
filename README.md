@@ -4,7 +4,9 @@
 - On-Premises 模擬環境架構圖<br>
   ![Github](Images/On-Premise-Exchange.png)<br>
 - Exchange Server 2016 以上混合式佈署環境架構圖 (本篇採用此架構)<br>
+  ![Github](Images/On-Premise-Exchange-2.png)<br>
 - Exchange Server 2007 / 2010 / 2013 混合式佈署環境架構圖<br>
+  ![Github](Images/On-Premise-Exchange-3.png)<br>
 ## 前置作業
 - 客戶必須要先開通 Microsoft 365 Tenant 並且擁有全域管理員帳號<br>
 - 內部環境架構確認<br>
