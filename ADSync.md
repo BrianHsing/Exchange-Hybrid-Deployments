@@ -2,7 +2,8 @@
 ## 設定 Azure AD Connect
  - Azure AD Connect v2 的版本強制使用 TLS 1.2，所以您必須要確保您有啟用 TLS 1.2，您可以使用下列 PowerShell 指令碼，在 Azure AD Connect 伺服器上啟用 TLS 1.2<br>
  ````
-     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319"SchUseStrongCrypto"=dword:00000001
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319
+     "SchUseStrongCrypto"=dword:00000001
  ````
  - 開啟瀏覽器，輸入 https://go.microsoft.com/fwlink/?LinkId=615771 ，並下載。<br>
   ![Github](/Images/aad1.png)<br>
@@ -37,4 +38,4 @@
  - 完成<br>
   ![Github](/Images/aad14.png)<br>
  
- 完成後，請繼續完成[Exchange Server 混合式佈署](/ExchangeHybrid.md)<br>。<br>
+ 完成後，請繼續完成[Exchange Server 混合式佈署](/ExchangeHybrid.md)。<br>
