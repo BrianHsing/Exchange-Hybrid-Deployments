@@ -33,7 +33,7 @@
  - 勾選「Exchange 混合部署」，並且按下「下一步」<br>
   ![Github](/Images/aad8.png)<br>
  - 選擇「安裝」<br>
-  ![Github](/Images/aad12.png)<br>
+  ![Github](/Images/aad9.png)<br>
  - 完成<br>
   ![Github](/Images/aad14.png)<br>
  
