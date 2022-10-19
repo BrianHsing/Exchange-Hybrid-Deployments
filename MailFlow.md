@@ -19,8 +19,6 @@
     ![Github](/Images/mailflow7.png)<br>
   - 在郵件追蹤搜尋結果的頁面中，可以觀察到此封信件的紀錄如下。<br>
     ![Github](/Images/mailflow6.png)<br>
-  - 在 Exchange Server 系統管理中心中，點選郵件流程功能，選擇傳遞回報，要搜尋的信箱選擇 mark@brianhsing.store，完成後選擇搜尋。<br>
-    ![Github](/Images/mailflow8.png)<br>
 - 外部信箱寄信到雲端信箱能夠透過 Exchange Hybrid 功能轉送至雲端信箱，brian.hsing.tw@gmail.com 寄送至 brian@brianhsing.store。<br>
   - 在使用者面向可以觀察以下信件截圖。<br>
     ![Github](/Images/mailflow9.png)<br>
