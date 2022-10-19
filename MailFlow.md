@@ -28,7 +28,7 @@
     ![Github](/Images/mailflow3.png)<br>
   - 在郵件追蹤搜尋結果的頁面中，可以觀察到此封信件的紀錄如下。<br>
     ![Github](/Images/mailflow10.png)<br>
-  - 在 Microsoft 365 安全性的總管功能中，可以信件資料中看到更詳細的資料，在這裡我就可以看到寄件者的 IP 位址與路由方向。<br>
+  - 在 Microsoft 365 安全性的總管功能中，可以信件資料中看到更詳細的資料，在這裡就可以看到寄件者的 IP 位址與路由方向。<br>
     ![Github](/Images/mailflow11.png)<br>
 
 已完成實戰演練，回[Exchange Hybrid Deployments](/README.md)。<br>
